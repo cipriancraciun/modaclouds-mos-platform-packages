@@ -13,7 +13,8 @@
 	"dependencies" : {
 		"requires" : [
 			"python",
-			"python-cairo"
+			"python-cairo",
+			"xorg-x11-fonts"
 		]
 	},
 	
