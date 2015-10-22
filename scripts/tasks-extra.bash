@@ -2,7 +2,7 @@
 
 cat <<EOS
 
-modaclouds-platform-core@package : mosaic-node-boot@package | mosaic-node-boot@publish
+modaclouds-platform-core@package : mosaic-node-boot@package
 modaclouds-platform-components@package :
 modaclouds-platform-services@package :
 modaclouds-platform-tools@package :
