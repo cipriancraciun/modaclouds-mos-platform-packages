@@ -51,13 +51,6 @@
 			}
 		},
 		{
-			"generator" : "symlinks",
-			"target" : "@{package:root}/lib/distribution",
-			"links" : {
-				"service.jar" : "./sda-weka-@{definitions:distribution:version}.jar"
-			}
-		},
-		{
 			"generator" : "file-creator",
 			"target" : "@{package:root}/lib/scripts/run.bash",
 			"resource" : "service-run.bash",
@@ -84,7 +77,7 @@
 		"package:release" : "@{execution:timestamp}_@{definitions:distribution:version}",
 		
 		"distribution:name" : "sda-weka",
-		"distribution:version" : "1.2.4",
+		"distribution:version" : "1.2.5",
 		"distribution:url:root" : "http://ftp.modaclouds.eu/public/distributions",
 		"distribution:url:base" : "@{definitions:distribution:url:root}/@{definitions:distribution:name}/@{definitions:distribution:version}",
 		
