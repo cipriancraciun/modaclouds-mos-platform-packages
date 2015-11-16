@@ -95,13 +95,6 @@
 		"environment:OBJECT_STORE_ENDPOINT_IP" : "0.0.0.0",
 		"environment:OBJECT_STORE_ENDPOINT_PORT" : "20622",
 		
-		"##environment:LB_CONTROLLER_ENDPOINT_IP" : "0.0.0.0",
-		"##environment:LB_CONTROLLER_ENDPOINT_PORT" : "8088",
-		
-		"##environment:LB_GATEWAY_ENDPOINT_IP" : "0.0.0.0",
-		"##environment:LB_GATEWAY_ENDPOINT_PORT_MIN" : "8000",
-		"##environment:LB_GATEWAY_ENDPOINT_PORT_MAX" : "8080",
-		
 		"environment:MCR_HOME" : "/opt/modaclouds-rt-matlab-mcr-r2013a/v81",
 		"environment:JAVA_HOME" : "/opt/mosaic-rt-jre-7",
 		"environment:PATH" : "@{definitions:environment:JAVA_HOME}/bin:/usr/bin:/bin",
